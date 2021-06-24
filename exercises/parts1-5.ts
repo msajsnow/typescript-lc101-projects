@@ -14,6 +14,7 @@ let milesToMars: number = kilometersToMars * milesPerKilometer;
 let hoursToMars: number = milesToMars / speedMph;
 let daysToMars: number = hoursToMars / 24;
 console.log(daysToMars);
+console.log(`${spacecraftName} would take ${daysToMars} days to get to Mars.`);
 
 
 
